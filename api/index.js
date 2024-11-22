@@ -17,7 +17,7 @@ app.get("/", (req, res)=>{
     success: true,
     message: "Server Running Successfully"
   })
-})
+});
 
 dotenv.config();
 
